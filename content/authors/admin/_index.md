@@ -1,36 +1,35 @@
 ---
 # Display name
-title: 吳健雄
+title: Abhijeet Nayak
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: ""
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Abhijeet
+last_name: Nayak
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Master's Student
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: University of Freiburg
+    url: https://uni-freiburg.de/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests TODO
 
 # Interests to show in About widget
 interests:
   - Artificial Intelligence
-  - Computational Linguistics
   - Information Retrieval
 
 # Education to show in About widget
