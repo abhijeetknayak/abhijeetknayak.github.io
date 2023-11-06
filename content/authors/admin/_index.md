@@ -93,21 +93,15 @@ social:
   - icon: envelope
     icon_pack: fas
     link: '/#contact'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-    label: Follow me on Twitter
-    display:
-      header: true
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com/citations?user=EbabmYcAAAAJ&hl=de&oi=ao
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/abhijeetknayak
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://de.linkedin.com/in/abhijeet-nayak-831abba7
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
@@ -119,5 +113,5 @@ social:
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Hey there, I'm a master's student at the Robot Learning lab, University of Freiburg. My research interests include robotics, and computer vision application in robotics - Perception and Localization of robots in their environment to be precise. I am also interested in the application of Deep Learning to solve large scale problems in various domains.
 {style="text-align: justify;"}
