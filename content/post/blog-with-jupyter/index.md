@@ -1,7 +1,7 @@
 ---
-title: Blog with Jupyter Notebooks!
+title: Gaussian Mixture Models
 date: '2023-11-04'
-summary: Easily blog from Jupyter notebooks!
+summary: An easy to understand explanation of Gaussian Mixture Models (with code!)
 ---
 
 
