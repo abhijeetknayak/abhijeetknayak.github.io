@@ -55,24 +55,24 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
-          date_end: ''
+        - title: Student Assistant
+          company: Fraunhofer IPM
+          company_url: 'https://www.ipm.fraunhofer.de/'
+          company_logo: 'https://www.bing.com/images/search?view=detailV2&ccid=Vx7pZT6f&id=0D298E3D6D1309AC6BAB7AB30F3AD55BCAB5FBA7&thid=OIP.Vx7pZT6fHZStLtvA2w54IgHaE8&mediaurl=https%3a%2f%2fabacus-laser.com%2fwp-content%2fuploads%2ffhg-ipm.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.571ee9653e9f1d94ad2edbc0db0e7822%3frik%3dp%252fu1ylvVOg%252bzeg%26pid%3dImgRaw%26r%3d0&exph=667&expw=1000&q=fraunhofer+ipm&simid=607998732113627984&FORM=IRPRST&ck=04BAC8DB948C4C0FFBDCE0F21AA1FB14&selectedIndex=19'
+          location: Freiburg im Breisgau, Germany
+          date_start: '2022-09-01'
+          date_end: '2023-10-01'
           description: |2-
               Responsibilities include:
 
               * Analysing
               * Modelling
               * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
+        - title: Research Assistant
+          company: Computer Vision Group, University of Freiburg
           company_url: ''
           company_logo: org-x
-          location: California
+          location: Freiburg im Breisgau, Germany
           date_start: '2016-01-01'
           date_end: '2020-12-31'
           description: Taught electronic engineering and researched semiconductor physics.
