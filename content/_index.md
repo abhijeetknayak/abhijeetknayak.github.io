@@ -58,7 +58,7 @@ sections:
         - title: Student Assistant
           company: Fraunhofer IPM
           company_url: 'https://www.ipm.fraunhofer.de/'
-          company_logo: ''
+          company_logo: images/screenshot.png
           location: Freiburg im Breisgau, Germany
           date_start: '2022-09-01'
           date_end: '2023-10-01'
