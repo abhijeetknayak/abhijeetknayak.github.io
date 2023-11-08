@@ -33,6 +33,8 @@ sections:
         <script async defer src="https://buttons.github.io/buttons.js"></script>
     design:
       background:
+        image: 
+          filename: 
         gradient_end: '#1976d2'
         gradient_start: '#004ba0'
         text_color_light: true
@@ -58,7 +60,7 @@ sections:
         - title: Student Assistant
           company: Fraunhofer IPM
           company_url: 'https://www.ipm.fraunhofer.de/'
-          company_logo: ''
+          company_logo: 'fraunhofer_ipm'
           location: Freiburg im Breisgau, Germany
           date_start: '2022-09-01'
           date_end: '2023-10-01'
