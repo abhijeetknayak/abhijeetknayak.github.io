@@ -60,7 +60,7 @@ sections:
         - title: Student Assistant
           company: Fraunhofer IPM
           company_url: 'https://www.ipm.fraunhofer.de/'
-          company_logo: 'fraunhofer_ipm'
+          company_logo: fraunhofer_ipm
           location: Freiburg im Breisgau, Germany
           date_start: '2022-09-01'
           date_end: '2023-10-01'
@@ -72,11 +72,11 @@ sections:
               * Deploying
         - title: Research Assistant
           company: Computer Vision Group, University of Freiburg
-          company_url: ''
-          company_logo: org-x
+          company_url: 'https://lmb.informatik.uni-freiburg.de/'
+          company_logo: uni_freiburg_logo
           location: Freiburg im Breisgau, Germany
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
+          date_start: '2023-04-01'
+          date_end: '2023-10-01'
           description: Taught electronic engineering and researched semiconductor physics.
     design:
       columns: '2'
