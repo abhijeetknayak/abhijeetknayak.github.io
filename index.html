@@ -70,50 +70,49 @@
             <tbody>
 
 
-              <tr onmouseout="cat3d_stop()" onmouseover="cat3d_start()" bgcolor="#ffffd0">
+              <tr onmouseout="ralf_stop()" onmouseover="ralf_start()" bgcolor="#ffffd0">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
-                    <div class="two" id='cat3d_image'><video width=100% height=100% muted autoplay loop>
-                        <source src="images/cat3d.mp4" type="video/mp4">
+                    <div class="two" id='ralf_image'><video width=100% height=100% muted autoplay loop>
+                        <source src="images/ralf.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                       </video></div>
-                    <img src='images/cat3d.jpg' width="160">
+                    <img src='images/ralf.png' width="160">
                   </div>
                   <script type="text/javascript">
-                    function cat3d_start() {
-                      document.getElementById('cat3d_image').style.opacity = "1";
+                    function ralf_start() {
+                      document.getElementById('ralf_image').style.opacity = "1";
                     }
 
-                    function cat3d_stop() {
-                      document.getElementById('cat3d_image').style.opacity = "0";
+                    function ralf_stop() {
+                      document.getElementById('ralf_image').style.opacity = "0";
                     }
-                    cat3d_stop()
+                    ralf_stop()
                   </script>
                 </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
-                  <a href="https://cat3d.github.io/">
-                    <span class="papertitle">CAT3D: Create Anything in 3D with Multi-View Diffusion Models</span>
+                  <a href="http://ralf.cs.uni-freiburg.de/">
+                    <span class="papertitle">RaLF: Flow-based Global and Metric Radar Localization in LiDAR Maps</span>
                   </a>
                   <br>
-                  <a href="https://ruiqigao.github.io/">Ruiqi Gao</a>*,
-                  <a href="https://holynski.org/">Aleksander Holynski</a>*,
-                  <a href="https://henzler.github.io/">Philipp Henzler</a>,
-                  <a href="https://github.com/ArthurBrussee">Arthur Brussee</a>,
-                  <a href="http://ricardomartinbrualla.com/">Ricardo Martin Brualla</a>,
-                  <a href="https://pratulsrinivasan.github.io/">Pratul P. Srinivasan</a>,
-                  <strong>Jonathan T. Barron</strong>,
-                  <a href="https://poolio.github.io/">Ben Poole</a>*
+                  <strong>Abhijeet Nayak*</strong>
+                  <a href="https://rl.uni-freiburg.de/people/cattaneo">Daniele Cattaneo</a>*,
+                  <a href="https://rl.uni-freiburg.de/people/valada">Abhinav Valada</a>
 
                   <br>
-                  <em>arXiv</em>, 2024
+                  <em>International Conference on Robotics and Automation</em>, 2024
                   <br>
-                  <a href="https://cat3d.github.io/">project page</a>
+                  <a href="http://ralf.cs.uni-freiburg.de/">project page</a>
                   /
-                  <a href="https://arxiv.org/abs/2405.10314">arXiv</a>
+                  <a href="https://arxiv.org/abs/2309.09875">arXiv</a>
+                  /
+                  <a href="https://youtu.be/Ru3LzX6iHVM">video</a>
+                  /
+                  <a href="https://github.com/robot-learning-freiburg/RaLF">code</a>
+
                   <p></p>
                   <p>
-                    A single model built around diffusion and NeRF that does text-to-3D, image-to-3D, and few-view
-                    reconstruction, trains in 1 minute, and renders at 60FPS in a browser.
+                    Write something about ralf
                   </p>
                 </td>
               </tr>
