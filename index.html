@@ -130,7 +130,7 @@
                       document.getElementById('cs_image').style.opacity = "1";
                     }
 
-                    function bog_stop() {
+                    function comp_servo_stop() {
                       document.getElementById('cs_image').style.opacity = "0";
                     }
                     bog_stop()
@@ -161,55 +161,92 @@
                 </td>
               </tr>
 
-              <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
+              <tr onmouseout="drone_stop()" onmouseover="drone_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
-                    <div class="two" id='smerf_image'><video width=100% muted autoplay loop>
-                        <source src="images/smerf.mp4" type="video/mp4">
+                    <div class="two" id='drone_image'><video width=100% muted autoplay loop>
+                        <source src="images/drone.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                       </video></div>
-                    <img src='images/smerf.jpg' width=100%>
+                    <img src='images/drone.jpg' width=100%>
                   </div>
                   <script type="text/javascript">
-                    function smerf_start() {
-                      document.getElementById('smerf_image').style.opacity = "1";
+                    function drone_start() {
+                      document.getElementById('drone_image').style.opacity = "1";
                     }
 
-                    function smerf_stop() {
-                      document.getElementById('smerf_image').style.opacity = "0";
+                    function drone_stop() {
+                      document.getElementById('drone_image').style.opacity = "0";
                     }
-                    smerf_stop()
+                    drone_stop()
                   </script>
                 </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
-                  <a href="https://smerf-3d.github.io/">
-                    <span class="papertitle">SMERF: Streamable Memory Efficient Radiance Fields for Real-Time
-                      Large-Scene Exploration</span>
+                  <a href="https://link.springer.com/chapter/10.1007/978-3-031-13324-4_37">
+                    <span class="papertitle">Evaluation of Fully-Convolutional One-Stage Object Detection for Drone Detection</span>
                   </a>
                   <br>
-                  <a href="http://www.stronglyconvex.com/about.html">Daniel Duckworth*</a>,
-                  <a href="https://phogzone.com/">Peter Hedman*</a>,
-                  <a href="https://creiser.github.io/">Christian Reiser</a>,
-                  <a href="">Peter Zhizhin</a>,
-                  <a href="">Jean-François Thibert</a>,
-                  <a href="https://lucic.ai/">Mario Lučić</a>,
-                  <a href="https://szeliski.org/">Richard Szeliski</a>,
-                  <strong>Jonathan T. Barron</strong>
+                  <strong>Abhijeet Nayak</strong>,
+                  <a>Mondher Bouazizi</a>,
+                  <a>Tasweer Ahmad</a>,
+                  <a> Artur Gonçalves</a>,
+                  <a>Bastien Rigault</a>,
+                  <a>Raghvendra Jain</a>,
+                  <a>Yutaka Matsuo</a>,
+                  <a>Helmut Prendinger</a>
                   <br>
-                  <em>SIGGRAPH</em>, 2024
+                  <em>Image Analysis and Processing (ICIAP) Workshops</em>, 2022
                   <br>
-                  <a href="https://smerf-3d.github.io/">project page</a>
-                  /
-                  <a href="https://www.youtube.com/watch?v=zhO8iUBpnCc">video</a>
-                  /
-                  <a href="https://arxiv.org/abs/2312.07541">arXiv</a>
+                  <a href="https://link.springer.com/chapter/10.1007/978-3-031-13324-4_37">paper</a>
                   <p></p>
                   <p>
-                    Distilling a Zip-NeRF into a tiled set of MERFs lets you fly through radiance fields on laptops and
-                    smartphones at 60 FPS.
+                    Write something about eval.....
                   </p>
                 </td>
               </tr>
+
+              <tr onmouseout="loc_stop()" onmouseover="loc_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='loc_image'><video width=100% muted autoplay loop>
+                        <source src="images/loc.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video></div>
+                    <img src='images/loc.jpg' width=100%>
+                  </div>
+                  <script type="text/javascript">
+                    function loc_start() {
+                      document.getElementById('loc_image').style.opacity = "1";
+                    }
+
+                    function loc_stop() {
+                      document.getElementById('loc_image').style.opacity = "0";
+                    }
+                    loc_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://ieeexplore.ieee.org/abstract/document/9287930">
+                    <span class="papertitle">Re-localization for Self-Driving Cars using Semantic Maps</span>
+                  </a>
+                  <br>
+                  <a>Lhilo Kenye</a>,
+                  <a>Rishitha Palugulla</a>,
+                  <a>Mehul Arora</a>,
+                  <a>Bharath Bhat</a>,
+                  <a>Rahul Kala</a>,
+                  <strong>Abhijeet Nayak</strong>
+                  <br>
+                  <em>International Conference on Robotic Computing</em>, 2020
+                  <br>
+                  <a href="https://link.springer.com/chapter/10.1007/978-3-031-13324-4_37">paper</a>
+                  <p></p>
+                  <p>
+                    Write something about eval.....
+                  </p>
+                </td>
+              </tr>
+
 
 
 
