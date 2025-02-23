@@ -25,19 +25,42 @@
               <tr style="padding:0px">
                 <td style="padding:2.5%;width:63%;vertical-align:middle">
                   <p class="name" style="text-align: center;">
-                    Abhijeet Nayak (Website under construction!!)
+                    Abhijeet Nayak
                   </p>
-                  <p>I'm a PhD student at the <a href="https://www.utn.de/departments/department-engineering/artificial-intelligence-and-robotics-lab/">University of Technology</a> in Nuremberg, where I am advised by <a
+                  <p>I am an ELLIS PhD student at the <a href="https://www.utn.de/departments/department-engineering/artificial-intelligence-and-robotics-lab/">University of Technology</a> in Nuremberg, 
+                    under the supervision of Prof. <a href="https://www.utn.de/person/wolfram-burgard/">Wolfram Burgard</a>. 
+                    My primary research focus is on applying foundation models to robotics, particularly in robot navigation and manipulation.
+                 </p>  
+                 <p>I earned my master’s degree in Computer Science from the <a href="https://uni-freiburg.de/en/">University of Freiburg</a>. 
+                  During my time there, I worked with the <a href="https://rl.uni-freiburg.de/home-page">Robot Learning Lab</a> on radar localization using prior LiDAR maps. 
+                  I also served as a research assistant with the <a href="https://lmb.informatik.uni-freiburg.de/">Computer Vision Group</a>, where I focused on object manipulation for robotic arms.
+                </p>  
+                <p>Prior to my master's studies, I was part of the vehicle localization team at <a href="https://www.mbrdi.co.in/#/">Mercedes-Benz R&D India</a>, developing lane-level localization algorithms 
+                  for the <a href="https://www.mercedes-benz.de/passengercars/technology/drive-pilot.html?srsltid=AfmBOoprwXh1Ck8MTGp0OIoQ4byNklT6tLEYVq__NZG6f7xDBEDvw0Vw">Drive Pilot</a> system. 
+                  These algorithms are now deployed in production-level Mercedes-Benz S-Class vehicles.
+                </p>
+                  <!-- <p>I'm a PhD student at the <a href="https://www.utn.de/departments/department-engineering/artificial-intelligence-and-robotics-lab/">University of Technology</a> in Nuremberg, where I am advised by <a
                       href="https://www.utn.de/person/wolfram-burgard/">Prof. Wolfram Burgard</a>.
+                      My core interests lie at the use of foundation models for robotics applications.
                   </p>
                   <p>
-                    I completed my master's degree in Computer Science at the <a href="http://www.eecs.berkeley.edu/">University of Freiburg</a>
+                    I completed my master's degree in Computer Science at the <a href="https://uni-freiburg.de/en/">University of Freiburg</a>.
+                    I was a part of the Robot Learning lab at Freiburg, where I worked on Radar localization against prior LiDAR maps.
+                    I was also a part of the Computer Vision group at Freiburg as a research assistant. Here, I worked on object manipulation for robot arms.
+                  </p>
+                  <p>
+                    Previously, I was a part of the vehcile localization team at Mercedes-Benz R&D India, where I worked
+                    on lane-level localization for the Drive Pilot system. Our algorithms are currently in production level
+                    Mercedes-Benz S-Class vehicles. -->
+
+
                   </p>
                   <p style="text-align:center">
                     <a href="mailto:abhijeetknayak@gmail.com">Email</a> &nbsp;/&nbsp;
                     <a href="data/CV.pdf">CV</a> &nbsp;/&nbsp;
+                    <a href="https://linkedin.com/in/abhijeet-nayak-831abba7/">LinkedIn</a> &nbsp;/&nbsp;
                     <a href="https://scholar.google.at/citations?hl=de&user=EbabmYcAAAAJ">Scholar</a> &nbsp;/&nbsp;
-                    <a href="https://github.com/abhijeetknayak/">Github</a>
+                    <a href="https://github.com/abhijeetknayak/">GitHub</a>
                   </p>
                 </td>
                 <td style="padding:2.5%;width:40%;max-width:40%">
@@ -54,11 +77,6 @@
               <tr>
                 <td style="padding:20px;width:100%;vertical-align:middle">
                   <h2>Research</h2>
-                  <p>
-                    I'm interested in computer vision, deep learning, generative AI, and image processing. Most of my
-                    research is about inferring the physical world (shape, motion, color, light, etc) from images,
-                    usually with radiance fields.
-                  </p>
                 </td>
               </tr>
             </tbody>
@@ -68,22 +86,75 @@
             <tbody>
 
 
+              <tr onmouseout="flownav_stop()" onmouseover="flownav_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='flownav_image'><video width=100% height=100% muted autoplay loop>
+                        <source src="videos/flownav.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video></div>
+                    <img src='images/flownav.png' width="160">
+                  </div>
+                  <script type="text/javascript">
+                    function flownav_start() {
+                      document.getElementById('flownav_image').style.opacity = "1";
+                    }
+
+                    function flownav_stop() {
+                      document.getElementById('flownav_image').style.opacity = "0";
+                    }
+                    flownav_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="">
+                    <span class="papertitle">FlowNav: Learning Efficient Navigation Policies via Conditional Flow Matching</span>
+                  </a>
+                  <br>
+                  <a href="https://samirangode.github.io/">Samiran Gode</a>*,
+                  <strong>Abhijeet Nayak*</strong>                  
+                  <a href="https://www.utn.de/person/wolfram-burgard-2/">Wolfram Burgard</a>
+
+                  <br>
+                  <em>Learning Effective Abstractions for Planning (LEAP) Workshop, CoRL</em>, 2024 <br>
+                  <em>Differentiable Optimization Everywhere: Simulation, Estimation, Learning, and Control (Workshop), CoRL</em>, 2024
+                  <br>
+                  <!-- <a href="http://ralf.cs.uni-freiburg.de/">project page</a>
+                  / -->
+                  <a href="https://arxiv.org/abs/2411.09524">arXiv</a>
+                  /
+                  <a href="https://github.com/robot-learning-freiburg/RaLF">code</a>
+
+                  <p></p>
+                  <p>
+                    Learning actions for robot navigation using Conditional Flow Matching. 
+                    With a faster inference time, FlowNav is ideal for environments with dynamic objects.
+                  </p>
+                </td>
+              </tr>
+
               <tr onmouseout="ralf_stop()" onmouseover="ralf_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
-                    <div class="two" id='ralf_image'><video width=100% height=100% muted autoplay loop>
-                        <source src="images/ralf.mp4" type="video/mp4">
+                    <div class="two" id='ralf_video'>
+                      <video width=100% height=100% muted autoplay loop>
+                        <source src="videos/ralf.mp4" type="video/mp4">
                         Your browser does not support the video tag.
-                      </video></div>
-                    <img src='images/ralf.png' width="160">
+                      </video>
+                    </div>
+                    <div class="two" id="ralf_image">
+                      <img src='images/ralf_1.png' width="100%">
+                    </div>
                   </div>
                   <script type="text/javascript">
                     function ralf_start() {
-                      document.getElementById('ralf_image').style.opacity = "1";
+                      document.getElementById('ralf_video').style.opacity = "1";
+                      document.getElementById('ralf_image').style.opacity = "0";
                     }
 
                     function ralf_stop() {
-                      document.getElementById('ralf_image').style.opacity = "0";
+                      document.getElementById('ralf_video').style.opacity = "0";
+                      document.getElementById('ralf_image').style.opacity = "1";
                     }
                     ralf_stop()
                   </script>
@@ -110,7 +181,10 @@
 
                   <p></p>
                   <p>
-                    Write something about ralf--------
+                    Global and metric localization of radar data on a prior LiDAR map of the environment.
+                    Place recognition is used for global localization, whereas optical flow between the 
+                    radar image and lidar submap is used for metric localization.
+                    Our method outperforms prior methods on unseen datasets.
                   </p>
                 </td>
               </tr>
@@ -120,24 +194,29 @@
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
                     <div class="two" id='cs_image'><video width=100% muted autoplay loop>
-                        <source src="images/comp_servo.pdf" type="video/mp4">
+                        <source src="videos/compositional_servoing.mp4" type="video/mp4">
                         Your browser does not support the video tag.
-                      </video></div>
-                    <img src='images/comp_servo.pdf' width=100%>
+                      </video>
+                    </div>
+                    <div class="two" id="im">
+                      <img src='images/comp_servo.jpg' width=100%>
+                    </div>
                   </div>
                   <script type="text/javascript">
                     function comp_servo_start() {
                       document.getElementById('cs_image').style.opacity = "1";
+                      document.getElementById('im').style.opacity = "0";
                     }
 
                     function comp_servo_stop() {
                       document.getElementById('cs_image').style.opacity = "0";
+                      document.getElementById('im').style.opacity = "1";
                     }
-                    bog_stop()
+                    compo_servo_stop()
                   </script>
                 </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
-                  <a href="https://creiser.github.io/binary_opacity_grid/">
+                  <a href="https://compservo.cs.uni-freiburg.de/">
                     <span class="papertitle"> Compositional Servoing by Recombining Demonstrations
                     </span>
                   </a>
@@ -149,14 +228,22 @@
                   <a href="https://rl.uni-freiburg.de/people/valada/">Abhinav Valada</a>,
                   <a href="https://lmb.informatik.uni-freiburg.de/people/brox/index.html">Thomas Brox</a>
                   <br>
-                  <em>Internation Conference on Robotics and Automation</em>, 2024
+                  <em>International Conference on Robotics and Automation</em>, 2024
                   <br>
                   <a href="http://compservo.cs.uni-freiburg.de/">project page</a>
                   /
                   <a href="https://arxiv.org/abs/2310.04271">arXiv</a>
+                  /
+                  <a href="https://youtu.be/cTXngMrN5CQ">video</a>
+                  /
+                  <a href="https://github.com/BlGene/flowcontrol/tree/abhijeet_recombination">code</a>
+
                   <p></p>
                   <p>
-                    Write something about Compositional Servoing...........
+                    Demonstrations collected for an object manipulation task can be reused for other tasks.
+                    Here, we reuse parts of different demonstrations sequentially to 
+                    show that object manipulation skills can be transferred between tasks.
+
                   </p>
                 </td>
               </tr>
@@ -164,11 +251,7 @@
               <tr onmouseout="drone_stop()" onmouseover="drone_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
-                    <div class="two" id='drone_image'><video width=100% muted autoplay loop>
-                        <source src="images/drone.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                      </video></div>
-                    <img src='images/drone.jpg' width=100%>
+                    <img src='images/drone.png' width=100%>
                   </div>
                   <script type="text/javascript">
                     function drone_start() {
@@ -186,21 +269,25 @@
                     <span class="papertitle">Evaluation of Fully-Convolutional One-Stage Object Detection for Drone Detection</span>
                   </a>
                   <br>
-                  <strong>Abhijeet Nayak</strong>,
-                  <a>Mondher Bouazizi</a>,
-                  <a>Tasweer Ahmad</a>,
-                  <a> Artur Gonçalves</a>,
-                  <a>Bastien Rigault</a>,
-                  <a>Raghvendra Jain</a>,
-                  <a>Yutaka Matsuo</a>,
-                  <a>Helmut Prendinger</a>
+                  <strong>Abhijeet Nayak*</strong>,
+                  Mondher Bouazizi*,
+                  Tasweer Ahmad*,
+                  Artur Gonçalves</a>,
+                  Bastien Rigault</a>,
+                  Raghvendra Jain</a>,
+                  <a href="https://scholar.google.co.jp/citations?user=Dy8iau4AAAAJ&hl=en">Yutaka Matsuo</a>,
+                  <a href="https://scholar.google.com/citations?hl=en&user=ExEodcUAAAAJ&view_op=list_works&sortby=pubdate">Helmut Prendinger</a>
                   <br>
                   <em>Image Analysis and Processing (ICIAP) Workshops</em>, 2022
                   <br>
                   <a href="https://link.springer.com/chapter/10.1007/978-3-031-13324-4_37">paper</a>
                   <p></p>
                   <p>
-                    Write something about eval.....
+                    In the Drone-vs-bird detection challenge, we employed the Fully-Convolutional One-Stage (FCOS)
+                     network for drone detection. To enhance detection accuracy and minimize false 
+                     positives, we applied data augmentation techniques, which strengthened the model's 
+                     robustness against drone-like objects. As a result, our improved detection 
+                     performance secured us third place in the challenge.                  
                   </p>
                 </td>
               </tr>
@@ -208,11 +295,9 @@
               <tr onmouseout="loc_stop()" onmouseover="loc_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
-                    <div class="two" id='loc_image'><video width=100% muted autoplay loop>
-                        <source src="images/loc.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                      </video></div>
-                    <img src='images/loc.jpg' width=100%>
+                    <div class="two" id="loc_image">
+                      <img src='images/relocalization.png' width=100%>
+                    </div>
                   </div>
                   <script type="text/javascript">
                     function loc_start() {
@@ -220,7 +305,7 @@
                     }
 
                     function loc_stop() {
-                      document.getElementById('loc_image').style.opacity = "0";
+                      document.getElementById('loc_image').style.opacity = "1";
                     }
                     loc_stop()
                   </script>
@@ -239,17 +324,14 @@
                   <br>
                   <em>International Conference on Robotic Computing</em>, 2020
                   <br>
-                  <a href="https://link.springer.com/chapter/10.1007/978-3-031-13324-4_37">paper</a>
+                  <a href="https://ieeexplore.ieee.org/abstract/document/9287930">paper</a>
                   <p></p>
                   <p>
-                    Write something about eval.....
+                    We propose a vehicle re-localization algorithm that uses a semantic map of the environment for localization.
+                    The semantic map consists of landmarks detected along the path of the vehicle.
                   </p>
                 </td>
               </tr>
-
-
-
-
 
 
               <table
